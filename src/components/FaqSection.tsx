@@ -1,14 +1,11 @@
 "use client";
 import {
   Box,
-  Stack,
   Text,
   Accordion,
   Collapsible,
-  Separator,
   IconButton,
   Span,
-  Flex,
 } from "@chakra-ui/react";
 
 import { LuPlus, LuMinus } from "react-icons/lu";

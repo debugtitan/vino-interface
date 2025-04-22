@@ -1,3 +1,5 @@
+
+
 import {
   Box,
   Flex,
@@ -11,7 +13,6 @@ import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 import Image from "next/image";
 import UserAvater from "~/assets/images/avater.png";
 import mobileApp from "~/assets/images/mobile.png";
-import Ornament from "~/assets/images/ornament.jpg";
 import { AppStoreLink } from "./Navbar/AppStoreLink";
 
 export default function Testimony() {
