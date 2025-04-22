@@ -27,11 +27,14 @@ export default function Footer() {
           p={{ base: 4, md: 8 }}>
           <Text
             fontWeight={"semibold"}
-            fontSize={{ base: "small", md: "34px" }}>
+            fontSize={{ base: "small", md: "34px" }}
+            color={"white"}>
             {" "}
             <Span color={"brand"}>Vino</Span> Wallet
           </Text>
-          <Text fontSize={{ base: "xs", md: "16px" }}>
+          <Text
+            fontSize={{ base: "xs", md: "16px" }}
+            color={"white"}>
             Pay bills, recharge mobile services, and manage
             your finances seamlessly—all within one platform
             that integrates multiple utilities for your
@@ -109,6 +112,7 @@ export default function Footer() {
             </Badge>
             <Text
               textTransform={"capitalize"}
+              color={"white"}
               fontWeight={"semibold"}
               width={{ md: "580px" }}
               fontSize={{ base: "sm", md: "34px" }}>

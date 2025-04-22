@@ -26,7 +26,7 @@ export default function Testimony() {
           gap={{ base: 12, md: "36" }}>
           <Stack gap={{ base: 3, md: 6 }}>
             <Text
-              width={{ base: "180px", md: "170px" }}
+              width={{ base: "180px", md: "190px" }}
               borderRadius={"full"}
               bg={"surface"}
               px={4}
@@ -198,12 +198,13 @@ export default function Testimony() {
               px={4}
               py={{ base: 2, md: 6 }}
               fontSize={{ base: "xs", md: "small" }}
-              width={{ base: "160px", md: "210px" }}
+              width={{ base: "160px", md: "230px" }}
               fontWeight={"medium"}>
               Download For Free
             </Badge>
             <Text
               textTransform={"capitalize"}
+              color={"white"}
               fontWeight={"semibold"}
               width={{ md: "580px" }}
               fontSize={{ base: "sm", md: "43px" }}>

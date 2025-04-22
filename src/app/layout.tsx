@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
+import { Box } from "@chakra-ui/react";
 import ThemeGlobalProvider from "~/context/theme-provider";
 import NavBar from "~/components/Navbar";
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 
 const dnSans = DM_Sans({
   variable: "--font-dm-sans",
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
 export default function RootLayout({
   children,
@@ -25,8 +26,10 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${dnSans.variable}`}>
         <ThemeGlobalProvider>
-          <NavBar />
-          {children}
+          <Box overflow={"hidden"}>
+            <NavBar />
+            {children}
+          </Box>
         </ThemeGlobalProvider>
       </body>
     </html>
