@@ -1,6 +1,4 @@
-import { createSystem, defaultConfig } from "@chakra-ui/react"
-
-
+import { createSystem, defaultConfig, defineTextStyles } from "@chakra-ui/react"
 
 export const systemConfig = createSystem(defaultConfig, {
     theme: {
@@ -50,7 +48,7 @@ export const systemConfig = createSystem(defaultConfig, {
     globalCss: {
         "html, body": {
             backgroundColor: "{colors.background}",
-            font: "var(--font-dm-sans)",
+            fontFamily: "var(--font-dm-sans)",
             height: "100vh",
             width: "100vw"
 
