@@ -4,7 +4,6 @@ import {
   Text,
   Stack,
   SimpleGrid,
-  Grid,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import whyImage from "~/assets/images/section.png";
