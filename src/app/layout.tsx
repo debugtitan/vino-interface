@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 
 const dnSans = DM_Sans({
   variable: "--font-dm-sans",
+  subsets: ["latin"]
 });
 export default function RootLayout({
   children,
